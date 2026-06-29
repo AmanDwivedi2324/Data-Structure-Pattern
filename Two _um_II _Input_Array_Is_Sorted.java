@@ -1,6 +1,6 @@
 class Solution{
 
-    public int[] twoSum(int[] numbers,int target, int[] ans){
+    public static int[] twoSum(int[] numbers,int target, int[] ans){
         int n = numbers.length;
         int i = 0;
         int j = n-1;
