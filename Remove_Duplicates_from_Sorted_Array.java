@@ -18,12 +18,13 @@ class Solution {
 
         while(j < n){
            if(nums[i] == nums[j]){
-            j++;
+            // j++;
            }
            else{
             i++;
             nums[i] = nums[j];
            }
+           j++;
         }
 
         return i+1;
